@@ -1,0 +1,25 @@
+h1{
+    background-color: mediumorchid;
+    border: 2px solid purple;
+}
+@media (width:400px) {
+    h1{
+        background-color: red;
+    }
+}
+@media (min-width:401px) {
+    h1{
+        background-color: rgb(32, 190, 201);
+    }
+}
+@media (max-width:390px) {
+    h1{
+        background-color: rgb(111, 171, 15);
+    } 
+} 
+@media (orientation:landscape) {
+    h1{
+        background-color: rgb(208, 241, 20);
+       color: brown
+    }
+}

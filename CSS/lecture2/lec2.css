@@ -1,0 +1,70 @@
+h3{
+    background-color: rgb(248, 221, 185) !important;
+}
+p a{
+    color: blueviolet;
+}
+.des a{
+    color: chocolate;
+}
+nav ul li a{
+    color: palevioletred;
+}
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: blueviolet;
+}
+div > input{
+    background-color: rgb(206, 154, 214);
+}
+input[type = "text"]{
+    color: crimson;
+}
+input[type = "password"]{
+    color: rgb(24, 171, 95);
+}
+input[type]{
+    background-color: blanchedalmond;
+}
+input[type$=password]{
+    color: brown;
+}
+#myId p{
+    color: green;
+}
+div[id = "myId"] p {
+    color: darkmagenta;
+}
+button:hover{
+    background-color: rgb(11, 11, 11);
+    color: white;
+}
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: darkred;
+}
+input[type="radio"]:checked + label{
+   color: red;
+   font-weight: bold; 
+}
+.des:nth-of-type(1){
+    background-color: chartreuse;
+}
+div:nth-of-type(2n){
+    background-color: rgb(229, 169, 147);
+}
+h1::first-letter{
+    color:indigo ;
+}
+p::first-line{
+    color: indigo;
+}
+p::selection{
+    background-color: darksalmon;
+}

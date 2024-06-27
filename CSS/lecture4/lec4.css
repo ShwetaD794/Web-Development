@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(81, 22, 22,0.8);
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+
+div:hover{
+    margin-top: 400px;
+    background-color: aqua;
+}
+#one{
+    height: 300px;
+    width: 600px;
+    transform: rotate(45deg);
+    transform: scale(0.5,0.9);
+    background-image: url("polar\ bear.jpg");
+    background-size:cover;
+}
+#two{
+    background-color: rgb(240, 108, 240);
+    transform: translate(100px,100px);
+    transform: skew(45deg);
+    box-shadow: 2px 2px 8px rgb(27, 3, 28);
+}

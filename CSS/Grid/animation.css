@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: palevioletred;
+
+    /* animation-name: Animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: alternate; */
+
+    animation: Animation 2s ease-in 0s 3 alternate;
+}
+@keyframes Animation {
+    from{
+        font-size: 20px;
+        background-color: rgb(15, 9, 127);
+    }
+    to{
+        font-size: 40px;
+        background-color: purple;
+        border-radius: 50px;
+    }
+}
