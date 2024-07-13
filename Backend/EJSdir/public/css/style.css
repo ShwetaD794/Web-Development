@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(176, 176, 211);
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
